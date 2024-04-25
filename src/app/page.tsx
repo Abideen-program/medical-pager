@@ -11,7 +11,7 @@ const client = StreamChat.getInstance(apiKey);
 
 export default function Home() {
   return (
-    <main className="flex flex-1 h-full shadow-[0px_1px_4px_0px_rgba(0,0,0,0.33)]">
+    <main className="border border-red-900 flex flex-1 h-full shadow-[0px_1px_4px_0px_rgba(0,0,0,0.33)]">
       <Chat client={client} theme="theme light">
         <ChannelListContainer />
         <ChannelContainer />
